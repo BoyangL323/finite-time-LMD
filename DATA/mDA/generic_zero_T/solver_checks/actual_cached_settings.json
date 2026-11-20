@@ -1,0 +1,600 @@
+[
+  {
+    "source": "source-project/results/generic_pz/cache/ohmic_lmd_b_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/ohmic_lmd_s_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/one_over_f_lmd_b_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/one_over_f_lmd_s_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/subohmic_lmd_b_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/subohmic_lmd_s_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/superohmic_lmd_b_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/superohmic_lmd_s_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/tls_lmd_b_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/generic_pz/cache/tls_lmd_s_N80.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/canonical_id_baseline_v8/generic/cache/ohmic_id_canonical_N20_Nw2000_Nt500.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/canonical_id_baseline_v8/generic/cache/ohmic_id_canonical_N40_Nw2000_Nt500.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-07
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-09
+        ]
+      ],
+      "MaxStep": [
+        [
+          0.05
+        ]
+      ],
+      "Ngrid": [
+        [
+          30000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  },
+  {
+    "source": "source-project/results/bchl_population/cache/lmd_a_M20.mat",
+    "settings": {
+      "MM": [
+        [
+          8.0
+        ]
+      ],
+      "rng_seed": [
+        [
+          1.0
+        ]
+      ],
+      "init_A_noise": [
+        [
+          1e-08
+        ]
+      ],
+      "init_F_noise": [
+        [
+          1e-06
+        ]
+      ],
+      "RelTol": [
+        [
+          1e-08
+        ]
+      ],
+      "AbsTol": [
+        [
+          1e-10
+        ]
+      ],
+      "MaxStep": [
+        [
+          2.0670686668280682
+        ]
+      ],
+      "Ngrid": [
+        [
+          20000.0
+        ]
+      ]
+    },
+    "branch_mode": "spread"
+  }
+]

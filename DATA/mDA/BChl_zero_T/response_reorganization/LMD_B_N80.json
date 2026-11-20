@@ -1,0 +1,9 @@
+{
+  "gamma_cm": 8,
+  "J12_cm": 363,
+  "time_fs": 200,
+  "N": 80,
+  "anchor_p": 1,
+  "old_nodes_max_relative_difference": null,
+  "reference_kind": "continuum response integral, not population"
+}

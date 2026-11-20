@@ -1,0 +1,4 @@
+Spectrum,depth,Pz_min,Pz_max,physical_bounds_passed,relL2_vs_previous,relL2_late_vs_previous,max_abs_vs_previous,pair_passed,improved_vs_previous_pair,source,CF_selection_policy,CF_fit_mode,ODE_method
+superohmic,1,0.0055415613408767,1.0,True,,,,False,False,reused_validated_cache,confirmed_high,separate,adams
+superohmic,2,0.0058626043590478,1.0,True,0.0036437311308179635,0.005172164628676948,0.005383213545773979,False,False,reused_validated_cache,confirmed_high,separate,adams
+superohmic,3,0.0058714585752471,1.0,True,6.590537010135672e-05,9.365583840608269e-05,0.00010122721310301674,True,True,reused_validated_cache,confirmed_high,separate,adams

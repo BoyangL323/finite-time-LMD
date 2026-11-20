@@ -1,0 +1,6 @@
+Spectrum,reference_method,provisional_BCF_mode_levels,population_mode_levels,reference_mode,working_MM,continuum_passed,BCF_sequence_passed,mode_count_passed,mode_budget_exception,multiplicity_passed,regularizer_passed,regularizer_marginal_exception,working_candidate_available,population_passed,overall_passed,status,certification_policy
+subohmic,BSDO,[160 180 200],[160 180 200],200,8,1,1,1,0,0,1,0,1,0,0,MM8_WORKING_CANDIDATE_MULTIPLICITY_NOT_CERTIFIED,core_BCF_mode_MM_regularizer_physicality
+ohmic,BSDO,[160 180 200],[160 180 200],200,8,1,1,1,0,1,1,0,1,1,1,CERTIFIED_BSDO_WORKING_REFERENCE_FOR_CORE_GATES,core_BCF_mode_MM_regularizer_physicality
+superohmic,BSDO,[160 180 200],[160 180 200],200,8,1,1,1,0,1,1,0,1,1,1,CERTIFIED_BSDO_WORKING_REFERENCE_FOR_CORE_GATES,core_BCF_mode_MM_regularizer_physicality
+tls,BSDO,[160 180 200],[160 180 200],200,8,1,1,1,0,1,1,0,1,1,1,CERTIFIED_BSDO_WORKING_REFERENCE_FOR_CORE_GATES,core_BCF_mode_MM_regularizer_physicality
+one_over_f,BSDO,[160 180 200],[160 180 200],200,8,1,1,0,1,0,0,1,1,0,0,ONE_OVER_F_MM8_WORKING_CANDIDATE_WITH_DECLARED_MODE_AND_REG_EXCEPTIONS,core_BCF_mode_MM_regularizer_physicality

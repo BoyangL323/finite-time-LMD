@@ -1,0 +1,21 @@
+{
+  "depth": 4,
+  "horizon": 150.0,
+  "build_seconds": 2.2900755000300705,
+  "run_seconds": 108.19252260006033,
+  "physical": true,
+  "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D4.csv",
+  "reference_certified": false,
+  "actual_ados": 58905,
+  "solver_stats": {
+    "method": "scipy zvode bdf",
+    "init time": "2.289891004562378",
+    "preparation time": "0.0037856101989746094",
+    "run time": "108.18855714797974",
+    "init ados time": "0.18452715873718262",
+    "init superop cache time": "0.009448051452636719",
+    "init rhs time": "2.0957088470458984",
+    "solver": "Hierarchical Equations of Motion Solver",
+    "max_depth": "4"
+  }
+}

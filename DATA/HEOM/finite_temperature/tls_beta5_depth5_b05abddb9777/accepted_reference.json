@@ -1,0 +1,15 @@
+{
+  "accepted": true,
+  "policy": "user_accepted_depth5",
+  "source_run_key": "b05abddb9777",
+  "source_code_sha256": "75693661fa6c7ca03aacccf641572c554f9e0236f006507d4b557c8c3d709ac9",
+  "selected_depth": 5,
+  "reference_curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/tls_beta5_depth5_b05abddb9777/D5.csv",
+  "adjacent_metrics": {
+    "relL2": 0.0014093396048308325,
+    "late_RMS_over_full_RMS": 0.0019922224980704105,
+    "max_over_scale": 0.003087495102263915
+  },
+  "decision_date": "2026-10-08",
+  "basis": "User explicitly accepted TLS depth5 as converged reference; preserve the original automated audit unchanged."
+}

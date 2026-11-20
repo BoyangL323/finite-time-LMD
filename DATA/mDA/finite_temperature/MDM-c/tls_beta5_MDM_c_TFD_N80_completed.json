@@ -1,0 +1,10 @@
+{
+  "tag": "tls_beta5_MDM_c_TFD_N80",
+  "cache_hit": false,
+  "wall_seconds": 343.754797,
+  "norm_drift": 5.1089661412540011E-7,
+  "M": 10,
+  "Ntotal": 80,
+  "Nphysical": 40,
+  "status": "completed"
+}

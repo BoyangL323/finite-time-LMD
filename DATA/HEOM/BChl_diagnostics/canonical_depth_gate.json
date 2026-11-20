@@ -1,0 +1,71 @@
+{
+  "gate_schema_version": "bchl_heom_depth_gate_v5_5_compact",
+  "code_version": "5.5.1",
+  "run_id": "v5_5_bchl_compact_9d874246-8cd0-4c2c-be0e-e941e8c707e2",
+  "BCF_metric_schema": "bcf_window_v2_full_scale_late_rms",
+  "depths": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "depth_ladder_requested": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "J_cm": 363.0,
+  "temperature_K": 0.0,
+  "gamma_cm": 8.0,
+  "wmax_cm": 4000.0,
+  "include_phonon_wing": true,
+  "phonon_lambda_code_cm": 35.0,
+  "bath_decomposition": "finite_window_joint_espira",
+  "fit_grid_n": 20000,
+  "audit_grid_n": 40000,
+  "cf_fit_method": "espira-I",
+  "cf_fit_mode": "joint_complex_shared_poles",
+  "cf_rank_range": [
+    8,
+    60,
+    2
+  ],
+  "preferred_max_exponents": 35,
+  "hard_max_exponents": 60,
+  "bath_audit_only": true,
+  "t_end_fs": 200.0,
+  "nt": 1001,
+  "population_tolerance": 0.002,
+  "physical_tolerance": 1e-06,
+  "solver_controls": {
+    "nsteps": 50000,
+    "rtol": 1e-08,
+    "atol": 1e-10,
+    "method": "adams"
+  },
+  "cache_policy": "legacy AAA caches are diagnostic only; reuse compact depths only when model/configuration, rank selection, bath audit, time grid and finite data match",
+  "bath_rule": "20k construction and independent 40k audit; joint-complex ESPIRA-I ranks 8--60; two consecutive BCF passes; select the lower rank; prefer <=35 and require <=60 exponents",
+  "required_rule": "at least three consecutive depths; the highest adjacent pair passes full/late/max population gates; the preceding pair either passes or all three errors improve; the final A/B populations are physical and trace preserving",
+  "hierarchy_convergence_verified": false,
+  "status": "BATH_AUDIT_FAILED",
+  "reference_depth": null,
+  "reference_csv": null,
+  "progress": {
+    "phase": "BATH_AUDIT_FAILED",
+    "current_depth": null,
+    "depths_completed": [],
+    "last_error": {
+      "type": "CompactBathAuditError",
+      "message": "No BChl compact bath with <=60 exponents produced two consecutive stable BCF-qualified joint ESPIRA-I ranks. Retain the mD2 baseline and do not provide a BChl HEOM reference."
+    }
+  },
+  "error": {
+    "type": "CompactBathAuditError",
+    "message": "No BChl compact bath with <=60 exponents produced two consecutive stable BCF-qualified joint ESPIRA-I ranks. Retain the mD2 baseline and do not provide a BChl HEOM reference."
+  },
+  "compact_rank_audit_csv": "bchl_compact_rank_audit.csv",
+  "compact_bath_gate_json": "bchl_compact_bath_gate.json"
+}

@@ -1,0 +1,129 @@
+{
+  "status": "ok_reused",
+  "Nb_effective": 40,
+  "norm_drift": 1.3734867065906542e-07,
+  "source_cache": "source-project/results/generic_pz/cache/tls_mdm_N40.mat",
+  "propagation_seconds": 103.0704318,
+  "reorganization_over_Delta": 0.035681814529271556,
+  "cfg": {
+    "wc": 1,
+    "alpha": 0.03,
+    "Delta": 0.1,
+    "epsilon": 0,
+    "MM": 8,
+    "Ns": 2,
+    "sigmaz": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "sigmax": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "VV1": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "t_end": 150,
+    "n_t": 1501,
+    "RelTol": 1e-07,
+    "AbsTol": 1e-09,
+    "MaxStep": 0.05,
+    "rng_seed": 1,
+    "init_A_noise": 1e-08,
+    "init_F_noise": 1e-06,
+    "init_branch_mode": "spread",
+    "initial_system_state": [
+      1,
+      0
+    ],
+    "tdvp_reg": 1e-10,
+    "tdvp_solver": "regularized",
+    "tdvp_svd_rcond": 1e-10,
+    "compute_geom": false,
+    "store_FF": false,
+    "wlow_default": 1e-07,
+    "wlow_1f_tls": 1e-05,
+    "whigh": 4,
+    "Ngrid": 30000,
+    "T_fit": 150,
+    "id_Nt": 4000,
+    "id_rank_tol": 1e-11,
+    "id_keep_tol": 1e-12,
+    "id_candidate_Nb": 1600,
+    "id_grid_oversample": 20,
+    "id_powerlaw_exact": true,
+    "id_force_requested_modes": false,
+    "id_enforce_C0": false,
+    "id_canonical_Nt": 500,
+    "id_canonical_Nw": 2000,
+    "id_canonical_target_Ngrid": 30000,
+    "id_canonical_keep_tol": 0,
+    "Nb_linear": 160,
+    "Nb_log": 160,
+    "Nb_id": 220,
+    "Nb_lmd": 80,
+    "lmd_anchor_mode": "gauss",
+    "lmd_xA": 6,
+    "lmd_T_floor": 0,
+    "lmd_pA": 0.1,
+    "lmd_use_TW": true,
+    "lmd_use_anchors": true,
+    "lmd_seed": "require_explicit",
+    "lmd_nA": 3,
+    "lmd_cA": 6,
+    "lmd_anchor_p": "auto",
+    "lmd_refine": "equalmass",
+    "lmd_greedy_rank": "permode",
+    "lmd_npts_bin": 1,
+    "lmd_n2_budget": 0,
+    "lmd_seed_exponent": 0.3333333333333333,
+    "kernel_series_cut": 10,
+    "kernel_series_M": 80,
+    "j1f_amp": 0.002,
+    "j1f_w0": 0.001,
+    "j1f_wcut": 1,
+    "tls_amp": 0.01,
+    "tls_center": 0.1,
+    "tls_gamma": 0.015,
+    "tls_background_alpha": 0.004,
+    "population_full_threshold": 0.002,
+    "population_tail_threshold": 0.002
+  },
+  "matlab_release": "2026a",
+  "signature": {
+    "schema": 2,
+    "id": "tls-base_MDM-c_M8",
+    "spectrum": "tls",
+    "J_scale": 1,
+    "cutoff": 4,
+    "psi": [
+      1,
+      0
+    ],
+    "design_T": 150,
+    "end_T": 150,
+    "M": 8,
+    "Nb": 40,
+    "source_root": "external-source/JCTC_LMD_article_code_v5"
+  },
+  "wall_seconds": 0.2161204
+}

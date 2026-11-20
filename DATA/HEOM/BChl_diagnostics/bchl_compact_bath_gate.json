@@ -1,0 +1,42 @@
+{
+  "bath_gate_schema": "bchl_compact_bath_gate_v1",
+  "code_version": "5.5.1",
+  "model": "finite-window joint-complex ESPIRA-I BChl bath",
+  "passed": false,
+  "decomposition": "direct finite-window complete BChl correlation-function joint-complex ESPIRA-I decomposition",
+  "fit_method": "espira-I",
+  "fit_mode": "joint_complex_shared_poles",
+  "fit_frequency_grid_n": 20000,
+  "audit_frequency_grid_n": 40000,
+  "selected_rank": null,
+  "confirmation_rank": null,
+  "n_exponents": null,
+  "preferred_max_exponents": 35,
+  "hard_max_exponents": 60,
+  "preferred_exponent_limit_passed": null,
+  "stable_positive_decay_rates": false,
+  "continuum_grid_metrics": {
+    "schema": "bcf_window_v2_full_scale_late_rms",
+    "relL2_full": 1.0000545157358162e-07,
+    "late_RMS_over_full_RMS": 1.0896217649069297e-07,
+    "relL2_late_over_full_norm": 7.70863697439421e-08,
+    "max_abs_over_C0": 3.408183391593531e-08,
+    "late_start": 0.1,
+    "full_window": [
+      0.0,
+      0.2
+    ],
+    "late_window": [
+      0.1,
+      0.2
+    ],
+    "n_full": 1001,
+    "n_late": 501
+  },
+  "BCF_metric_schema": "bcf_window_v2_full_scale_late_rms",
+  "bcf_metrics": null,
+  "failed_rank_count": 18,
+  "stopping_reason": "no <=60-exponent pair of consecutive stable BCF-qualified ranks",
+  "rank_audit_csv": "bchl_compact_rank_audit.csv",
+  "policy": "Bath certification only. HEOM reference still requires the independent hierarchy-depth convergent-tail certificate."
+}

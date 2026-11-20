@@ -1,0 +1,151 @@
+{
+  "spectrum": "ohmic",
+  "Delta": 0.1,
+  "epsilon": 0.0,
+  "Tfit": 150.0,
+  "nt": 1501,
+  "fit_grid_n": 20000,
+  "audit_grid_n": 40000,
+  "cf_fit_method": "espira-I",
+  "cf_rank_min": 8,
+  "cf_rank_max": 24,
+  "cf_rank_step": 2,
+  "cf_required_consecutive": 2,
+  "bcf_tol": 0.002,
+  "bcf_late_tol": null,
+  "bcf_max_tol": null,
+  "depth": 1,
+  "max_ados": 250000,
+  "allow_large_ado": false,
+  "nsteps": 50000,
+  "rtol": 1e-08,
+  "atol": 1e-10,
+  "outdir": "results/generic_heom/depth_scan",
+  "tag": "ohmic_D1",
+  "model": "finite-window generic benchmark",
+  "bath_audit": {
+    "spectrum": "ohmic",
+    "decomposition": "direct finite-window T=0 correlation-function espira-I decomposition",
+    "target_correlation": "C(t)=integral_[wlow,whigh] J_code(w) exp(-iwt) dw",
+    "project_spectral_density_convention": "J_code=sum lambda^2 delta",
+    "hard_cutoff_policy": "fit C(t) directly; do not rationally extrapolate a compact-support power spectrum",
+    "fit_frequency_grid_n": 20000,
+    "audit_frequency_grid_n": 40000,
+    "continuum_grid_metrics": {
+      "schema": "bcf_window_v2_full_scale_late_rms",
+      "relL2_full": 2.3831752235688757e-06,
+      "late_RMS_over_full_RMS": 3.2939611475168298e-06,
+      "relL2_late_over_full_norm": 2.3299580120274454e-06,
+      "max_abs_over_C0": 5.611147348933745e-07,
+      "late_start": 75.0,
+      "full_window": [
+        0.0,
+        150.0
+      ],
+      "late_window": [
+        75.0,
+        150.0
+      ],
+      "n_full": 1501,
+      "n_late": 751
+    },
+    "continuum_grid_passed": true,
+    "fit_method": "espira-I",
+    "rank_min": 8,
+    "rank_max": 24,
+    "rank_step": 2,
+    "required_successive_rank_passes": 2,
+    "rank_audit": [
+      {
+        "rank": 8,
+        "n_exponents": 16,
+        "stable_decay_rates": true,
+        "min_decay_rate": 0.016379131673578236,
+        "max_decay_rate": 2.5764293720004727,
+        "BCF_relL2_full": 0.024339544818614913,
+        "BCF_late_RMS_over_full_RMS": 0.0019269060145750891,
+        "BCF_max_abs_over_C0": 0.02593086943392941,
+        "passed": false
+      },
+      {
+        "rank": 10,
+        "n_exponents": 20,
+        "stable_decay_rates": true,
+        "min_decay_rate": 0.012487653195307851,
+        "max_decay_rate": 2.178105765205797,
+        "BCF_relL2_full": 0.009952403164320745,
+        "BCF_late_RMS_over_full_RMS": 0.0010619089709492653,
+        "BCF_max_abs_over_C0": 0.014123968247196257,
+        "passed": false
+      },
+      {
+        "rank": 12,
+        "n_exponents": 24,
+        "stable_decay_rates": true,
+        "min_decay_rate": 0.009081975304482891,
+        "max_decay_rate": 2.571459545953366,
+        "BCF_relL2_full": 0.0025969741443484526,
+        "BCF_late_RMS_over_full_RMS": 0.00046621791310415376,
+        "BCF_max_abs_over_C0": 0.003586188899039667,
+        "passed": false
+      },
+      {
+        "rank": 14,
+        "n_exponents": 28,
+        "stable_decay_rates": true,
+        "min_decay_rate": 0.008312799723840842,
+        "max_decay_rate": 2.5440676540350453,
+        "BCF_relL2_full": 0.001307017935098055,
+        "BCF_late_RMS_over_full_RMS": 0.00022987739224295225,
+        "BCF_max_abs_over_C0": 0.0015539740160288719,
+        "passed": true
+      },
+      {
+        "rank": 16,
+        "n_exponents": 32,
+        "stable_decay_rates": true,
+        "min_decay_rate": 0.006572875630250437,
+        "max_decay_rate": 2.4246764409735437,
+        "BCF_relL2_full": 0.0002484303707121007,
+        "BCF_late_RMS_over_full_RMS": 6.512787186280138e-05,
+        "BCF_max_abs_over_C0": 0.00024414291795537337,
+        "passed": true
+      }
+    ],
+    "selected_rank": 16,
+    "n_exponents": 32,
+    "stable_decay_rates": true,
+    "min_decay_rate": 0.006572875630250437,
+    "max_decay_rate": 2.4246764409735437,
+    "fit_summary": "Correlation function fit:\n\nResult of fitting the real part of                        |Result of fitting the imaginary part                       \nthe correlation function with 16 terms:                   |of the correlation function with 16 terms:                 \n                                                          |                                                           \n Parameters|   ckr    |   vkr    |   vki    |  cki        | Parameters|   ckr    |   vkr    |   vki    |  cki         \n 1         |-5.30e-03 | 8.09e-03 | 1.93e+00 |3.37e+00     | 1         | 4.50e-03 | 3.24e-03 | 1.52e+00 |3.71e+00      \n 2         |-6.04e-04 | 1.59e-03 | 6.28e-01 |3.96e+00     | 2         | 1.17e-03 | 3.76e-04 | 4.87e-01 |3.98e+00      \n 3         |-5.32e-05 | 5.22e-04 | 1.88e-01 |3.99e+00     | 3         | 4.07e-04 | 2.92e-05 | 1.57e-01 |3.99e+00      \n 4         | 6.30e-06 | 1.58e-04 | 4.95e-02 |4.00e+00     | 4         | 1.37e-04 |-6.60e-06 | 4.44e-02 |4.00e+00      \n 5         | 3.28e-06 | 4.51e-05 | 7.66e-03 |4.00e+00     | 5         | 4.15e-05 |-3.06e-06 | 7.09e-03 |4.00e+00      \n 6         | 5.05e-02 | 4.31e-02 | 2.24e+00 |9.71e-01     | 6         | 3.97e-02 |-1.11e-02 | 2.42e+00 |1.63e+00      \n 7         | 3.53e-02 |-4.56e-02 | 2.24e+00 |-1.19e+00    | 7         | 3.31e-02 | 3.67e-03 | 2.38e+00 |-1.96e+00     \n 8         |-3.55e-03 |-6.58e-03 | 1.69e+00 |-3.48e+00    | 8         |-7.54e-02 | 4.43e-03 | 1.26e+00 |-5.46e-02     \n 9         |-4.37e-04 |-1.40e-03 | 5.50e-01 |-3.97e+00    | 9         |-7.95e-03 | 1.53e-03 | 5.46e-01 |-3.93e-02     \n 10        |-3.94e-05 |-4.46e-04 | 1.69e-01 |-4.00e+00    | 10        |-5.95e-04 | 1.34e-04 | 2.14e-01 |-1.40e-02     \n 11        |-2.54e-06 |-4.32e-05 | 7.38e-03 |-4.00e+00    | 11        |-2.11e-05 | 2.46e-06 | 5.98e-02 |-1.90e-03     \n 12        |-9.02e-06 |-1.45e-04 | 4.69e-02 |-4.00e+00    | 12        | 3.38e-03 |-2.17e-03 | 1.22e+00 |-3.81e+00     \n 13        |-1.72e-02 | 4.90e-04 | 6.31e-01 |-1.38e-02    | 13        | 9.73e-04 |-1.93e-04 | 3.92e-01 |-3.96e+00     \n 14        |-3.54e-03 | 1.46e-04 | 2.47e-01 |-3.65e-03    | 14        | 3.22e-04 | 4.03e-06 | 1.31e-01 |-3.99e+00     \n 15        |-4.99e-04 | 8.03e-06 | 8.28e-02 |-1.34e-03    | 15        | 1.18e-04 | 4.56e-06 | 3.98e-02 |-4.00e+00     \n 16        |-4.09e-05 | 3.04e-06 | 1.91e-02 |-8.05e-04    | 16        | 3.82e-05 | 1.17e-06 | 6.57e-03 |-4.00e+00     \n                                                          |                                                           \nA RMSE of  1.15e-05 was obtained for the the real part of |A RMSE of  2.16e-05 was obtained for the the imaginary part\nthe correlation function.                                 |of the correlation function.                               \nThe current fit took  0.648638 seconds.                   |The current fit took  0.655744 seconds.                    \n",
+    "bcf_metric_schema": "bcf_window_v2_full_scale_late_rms",
+    "bcf_tolerance": 0.002,
+    "bcf_late_tolerance": 0.002,
+    "bcf_max_tolerance": 0.01,
+    "bcf_metrics": {
+      "schema": "bcf_window_v2_full_scale_late_rms",
+      "relL2_full": 0.0002484303707121007,
+      "late_RMS_over_full_RMS": 6.512787186280138e-05,
+      "relL2_late_over_full_norm": 4.606769784380271e-05,
+      "max_abs_over_C0": 0.00024414291795537337,
+      "late_start": 75.0,
+      "full_window": [
+        0.0,
+        150.0
+      ],
+      "late_window": [
+        75.0,
+        150.0
+      ],
+      "n_full": 1501,
+      "n_late": 751
+    },
+    "bcf_passed": true,
+    "audit_rule": "two successive stable decomposition ranks pass an independent fine-frequency-grid direct BCF on the exact propagation time window; late RMS error uses the full-window reference RMS scale"
+  },
+  "n_exponents": 32,
+  "estimated_ado_count": 33,
+  "hierarchy_convergence_verified": false,
+  "reference_status": "candidate until two successive depth pairs pass",
+  "output_csv": "results/generic_heom/depth_scan\\generic_heom_ohmic_D1.csv"
+}

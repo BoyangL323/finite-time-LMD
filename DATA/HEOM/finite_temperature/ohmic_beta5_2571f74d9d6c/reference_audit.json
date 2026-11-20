@@ -1,0 +1,319 @@
+{
+  "config": {
+    "spectrum": "ohmic",
+    "beta": 5.0,
+    "alpha": 0.03,
+    "wc": 1.0,
+    "Delta": 0.1,
+    "epsilon": 0.0,
+    "horizon": 150.0,
+    "nt": 1501,
+    "grid_n": 20000,
+    "audit_n": 40000,
+    "rank_min": 8,
+    "rank_max": 24,
+    "rank_step": 2,
+    "bcf_tol": 0.0005,
+    "depth_tol": 0.001,
+    "depth_min": 1,
+    "depth_max": 5,
+    "max_ados": 250000,
+    "max_memory_gib": 8.0,
+    "max_depth_seconds": 1800.0,
+    "total_seconds": 7200.0,
+    "fit_seconds": 600.0,
+    "probe_horizon": 5.0,
+    "rtol": 1e-08,
+    "atol": 1e-10,
+    "nsteps": 100000,
+    "threads": 2,
+    "outdir": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom"
+  },
+  "run_key": "2571f74d9d6c",
+  "depths": [
+    {
+      "depth": 1,
+      "estimated_ados": 33,
+      "estimated_memory_gib": 0.5000708103179932,
+      "predicted_full_seconds": 2.7775750001892447,
+      "estimate_is_heuristic": true,
+      "status": "computed",
+      "probe": {
+        "depth": 1,
+        "horizon": 5.0,
+        "build_seconds": 0.019691199995577335,
+        "run_seconds": 0.0049085000064224005,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D1_probe.csv",
+        "reference_certified": false,
+        "actual_ados": 33,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "0.01950860023498535",
+          "preparation time": "0.0004723072052001953",
+          "run time": "0.0043909549713134766",
+          "init ados time": "0.0009262561798095703",
+          "init superop cache time": "0.009585142135620117",
+          "init rhs time": "0.008787870407104492",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "1"
+        }
+      },
+      "probe_worker_seconds": 2.561600999906659,
+      "actual_worker_seconds": 2.684063999913633,
+      "result": {
+        "depth": 1,
+        "horizon": 150.0,
+        "build_seconds": 0.019257099833339453,
+        "run_seconds": 0.11209880001842976,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D1.csv",
+        "reference_certified": false,
+        "actual_ados": 33,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "0.01906871795654297",
+          "preparation time": "0.0004284381866455078",
+          "run time": "0.11162471771240234",
+          "init ados time": "0.0006792545318603516",
+          "init superop cache time": "0.009543180465698242",
+          "init rhs time": "0.008636474609375",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "1"
+        },
+        "worker_overhead_seconds": 2.5527081000618637
+      },
+      "pair_passed": false
+    },
+    {
+      "depth": 2,
+      "estimated_ados": 561,
+      "estimated_memory_gib": 0.5017387866973877,
+      "predicted_full_seconds": 3.3335866986308247,
+      "estimate_is_heuristic": true,
+      "status": "computed",
+      "probe": {
+        "depth": 2,
+        "horizon": 5.0,
+        "build_seconds": 0.0337992999702692,
+        "run_seconds": 0.01638519996777177,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D2_probe.csv",
+        "reference_certified": false,
+        "actual_ados": 561,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "0.033621788024902344",
+          "preparation time": "0.000457763671875",
+          "run time": "0.01588296890258789",
+          "init ados time": "0.002841472625732422",
+          "init superop cache time": "0.009322404861450195",
+          "init rhs time": "0.021251440048217773",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "2"
+        }
+      },
+      "probe_worker_seconds": 2.612637900048867,
+      "actual_worker_seconds": 3.0648222998715937,
+      "result": {
+        "depth": 2,
+        "horizon": 150.0,
+        "build_seconds": 0.03445759997703135,
+        "run_seconds": 0.38909299997612834,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D2.csv",
+        "reference_certified": false,
+        "actual_ados": 561,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "0.034273386001586914",
+          "preparation time": "0.00047469139099121094",
+          "run time": "0.38857531547546387",
+          "init ados time": "0.0027854442596435547",
+          "init superop cache time": "0.009598731994628906",
+          "init rhs time": "0.021681547164916992",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "2"
+        },
+        "worker_overhead_seconds": 2.641271699918434
+      },
+      "adjacent_metrics": {
+        "relL2": 0.0053192312679553305,
+        "late_RMS_over_full_RMS": 0.005254507565177843,
+        "max_over_scale": 0.005180786263289605
+      },
+      "pair_passed": false
+    },
+    {
+      "depth": 3,
+      "estimated_ados": 6545,
+      "estimated_memory_gib": 0.5265276432037354,
+      "predicted_full_seconds": 9.667060710024089,
+      "estimate_is_heuristic": true,
+      "status": "computed",
+      "probe": {
+        "depth": 3,
+        "horizon": 5.0,
+        "build_seconds": 0.2409115000627935,
+        "run_seconds": 0.15186090022325516,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D3_probe.csv",
+        "reference_certified": false,
+        "actual_ados": 6545,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "0.24072623252868652",
+          "preparation time": "0.0007886886596679688",
+          "run time": "0.15102696418762207",
+          "init ados time": "0.022607803344726562",
+          "init superop cache time": "0.010556459426879883",
+          "init rhs time": "0.2073526382446289",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "3"
+        }
+      },
+      "probe_worker_seconds": 2.9851811002008617,
+      "actual_worker_seconds": 6.695397400064394,
+      "result": {
+        "depth": 3,
+        "horizon": 150.0,
+        "build_seconds": 0.23798019997775555,
+        "run_seconds": 3.9787479999940842,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D3.csv",
+        "reference_certified": false,
+        "actual_ados": 6545,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "0.23780083656311035",
+          "preparation time": "0.0007774829864501953",
+          "run time": "3.9779250621795654",
+          "init ados time": "0.021794557571411133",
+          "init superop cache time": "0.009395599365234375",
+          "init rhs time": "0.20639944076538086",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "3"
+        },
+        "worker_overhead_seconds": 2.478669200092554
+      },
+      "adjacent_metrics": {
+        "relL2": 9.107688609036801e-05,
+        "late_RMS_over_full_RMS": 9.946441303336917e-05,
+        "max_over_scale": 8.651701729367467e-05
+      },
+      "pair_passed": true
+    },
+    {
+      "depth": 4,
+      "estimated_ados": 58905,
+      "estimated_memory_gib": 0.7949249744415283,
+      "predicted_full_seconds": 111.54282150254585,
+      "estimate_is_heuristic": true,
+      "status": "computed",
+      "probe": {
+        "depth": 4,
+        "horizon": 5.0,
+        "build_seconds": 2.247609799960628,
+        "run_seconds": 2.371781500056386,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D4_probe.csv",
+        "reference_certified": false,
+        "actual_ados": 58905,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "2.2474257946014404",
+          "preparation time": "0.003760099411010742",
+          "run time": "2.3678500652313232",
+          "init ados time": "0.18368148803710938",
+          "init superop cache time": "0.009817361831665039",
+          "init rhs time": "2.053719997406006",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "4"
+        }
+      },
+      "probe_worker_seconds": 7.184435500064865,
+      "actual_worker_seconds": 113.0286590999458,
+      "result": {
+        "depth": 4,
+        "horizon": 150.0,
+        "build_seconds": 2.2900755000300705,
+        "run_seconds": 108.19252260006033,
+        "physical": true,
+        "curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D4.csv",
+        "reference_certified": false,
+        "actual_ados": 58905,
+        "solver_stats": {
+          "method": "scipy zvode bdf",
+          "init time": "2.289891004562378",
+          "preparation time": "0.0037856101989746094",
+          "run time": "108.18855714797974",
+          "init ados time": "0.18452715873718262",
+          "init superop cache time": "0.009448051452636719",
+          "init rhs time": "2.0957088470458984",
+          "solver": "Hierarchical Equations of Motion Solver",
+          "max_depth": "4"
+        },
+        "worker_overhead_seconds": 2.546060999855399
+      },
+      "adjacent_metrics": {
+        "relL2": 5.757550641292574e-07,
+        "late_RMS_over_full_RMS": 2.425285074705513e-07,
+        "max_over_scale": 7.475573146065173e-07
+      },
+      "pair_passed": true
+    }
+  ],
+  "certified": true,
+  "status": "converged",
+  "code_sha256": "75693661fa6c7ca03aacccf641572c554f9e0236f006507d4b557c8c3d709ac9",
+  "fit": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/thermal_fit.json",
+  "initial_depth_estimates": [
+    {
+      "depth": 1,
+      "estimated_ados": 33,
+      "estimated_memory_gib": 0.5000708103179932,
+      "predicted_full_seconds": null,
+      "estimate_is_heuristic": true
+    },
+    {
+      "depth": 2,
+      "estimated_ados": 561,
+      "estimated_memory_gib": 0.5017387866973877,
+      "predicted_full_seconds": null,
+      "estimate_is_heuristic": true
+    },
+    {
+      "depth": 3,
+      "estimated_ados": 6545,
+      "estimated_memory_gib": 0.5265276432037354,
+      "predicted_full_seconds": null,
+      "estimate_is_heuristic": true
+    },
+    {
+      "depth": 4,
+      "estimated_ados": 58905,
+      "estimated_memory_gib": 0.7949249744415283,
+      "predicted_full_seconds": null,
+      "estimate_is_heuristic": true
+    },
+    {
+      "depth": 5,
+      "estimated_ados": 435897,
+      "estimated_memory_gib": 3.0981485843658447,
+      "predicted_full_seconds": null,
+      "estimate_is_heuristic": true
+    }
+  ],
+  "remaining_depth_estimates": [
+    {
+      "depth": 5,
+      "estimated_ados": 435897,
+      "estimated_memory_gib": 3.0981485843658447,
+      "predicted_full_seconds": 1474.1742676930596,
+      "estimate_is_heuristic": true
+    }
+  ],
+  "reference_curve": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/heom/ohmic_beta5_2571f74d9d6c/D4.csv",
+  "selected_depth": 4,
+  "total_wall_seconds": 156.35793719999492
+}

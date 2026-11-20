@@ -1,0 +1,89 @@
+{
+  "method": "LMD-A",
+  "beta": null,
+  "Nb_requested": 20,
+  "Nb_eff": 20,
+  "Nnegative": 0,
+  "Npositive": 20,
+  "is_anchor": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "anchor": {
+    "n_positive": 3,
+    "p": 1,
+    "thermal_moment_exact": false,
+    "gauss": {
+      "alpha": [
+        0.019888951599943572,
+        0.020022283345068698,
+        0.020003245501302155
+      ],
+      "beta": [
+        0.0019670279710907652,
+        0.00013332514191758893,
+        0.00010666694281178093
+      ],
+      "n_used": 3,
+      "truncated": false,
+      "beta_min": 0.00010666694281178093,
+      "mass": 0.0019670279710907652,
+      "mass_rule": 0.0019670279710907648
+    }
+  },
+  "background_counts": [
+    17,
+    0
+  ],
+  "background_density_mass": [
+    1.1122401104108146,
+    0
+  ],
+  "edges": [
+    [
+      0.040000000000000008,
+      0.36978313323728024,
+      0.62785559856246853,
+      0.86899339879387916,
+      1.1038185527918176,
+      1.3371854943631187,
+      1.5720476738678382,
+      1.8105541583854858,
+      2.054486882956732,
+      2.3054779328801915,
+      2.5651400636118225,
+      2.8351615431347632,
+      3.1173894477771027,
+      3.4139158273208494,
+      3.7271786329458583,
+      4.0600903597657192,
+      4.4162121068852835,
+      4.8
+    ],
+    []
+  ],
+  "support": [
+    1.2E-7,
+    4.8
+  ],
+  "wA": 0.04,
+  "variant": "signed thermal centroid allocation; N includes all thermal anchor modes"
+}

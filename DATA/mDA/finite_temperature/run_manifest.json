@@ -1,0 +1,27 @@
+{
+  "MATLAB": "26.1.0.3312084 (R2026a) Update 4",
+  "workers": 4,
+  "threads_per_worker": 1,
+  "no_propagation_time_limit": true,
+  "budgets": [
+    40,
+    80
+  ],
+  "physical_budgets": [
+    20,
+    40
+  ],
+  "Ohmic_M": 8,
+  "TLS_M": 10,
+  "beta": 5,
+  "horizon": 150,
+  "nt": 1501,
+  "RelTol": 1E-6,
+  "AbsTol": 1E-8,
+  "init_branch_mode": "single",
+  "init_A_noise": 0.0001,
+  "init_F_noise": 0.01,
+  "regularizer": 1E-10,
+  "rng_seed": 1,
+  "submitted_v5_modified": false
+}

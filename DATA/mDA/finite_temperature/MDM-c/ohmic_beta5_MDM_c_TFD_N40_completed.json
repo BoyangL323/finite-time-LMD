@@ -1,0 +1,10 @@
+{
+  "tag": "ohmic_beta5_MDM_c_TFD_N40",
+  "cache_hit": false,
+  "wall_seconds": 58.2132951,
+  "norm_drift": 9.8880300614112571E-9,
+  "M": 8,
+  "Ntotal": 40,
+  "Nphysical": 20,
+  "status": "completed"
+}

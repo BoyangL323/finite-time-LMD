@@ -1,0 +1,1 @@
+{"runner":"run_article_pure_dephasing_check","Delta":0,"epsilon":0,"initial_state":"|+x>","formula":"exp[-sum lambda^2/omega^2(1-cos omega t)]","solver_tol":2E-5,"norm_tol":2E-5,"all_solver_convention_passed":true}

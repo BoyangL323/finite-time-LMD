@@ -1,0 +1,31 @@
+{
+  "runner": "run_article_canonical_id_baseline_v8",
+  "output_directory": "source-project/results/canonical_id_baseline_v8",
+  "method": "canonical QFiND-style zero-T positive-frequency ID",
+  "construction": "uniform time/frequency mesh; ID/CPQR on f(t,w)=J(w)exp(-iwt); rank set by requested mode budget; NNLS on selected weighted columns; lambda_k^2=z_k J(w_k); zero NNLS weights removed",
+  "historical_ID_log_untouched": true,
+  "no_C0_rescale": true,
+  "no_Mminus1_constraint": true,
+  "id_canonical_Nt": 500,
+  "id_canonical_Nw": 2000,
+  "id_canonical_target_Ngrid": 30000,
+  "generic_spectra": [
+    "subohmic",
+    "ohmic",
+    "superohmic",
+    "tls"
+  ],
+  "generic_budgets": [
+    20,
+    40,
+    60,
+    80
+  ],
+  "bchl_budgets": [
+    10,
+    20,
+    30,
+    40
+  ],
+  "figure_policy": "Fig2/Fig4/Fig6 prefer publication tables in this folder; LMD-legacy is excluded from main-text Fig4 and Fig6"
+}

@@ -1,0 +1,6 @@
+Spectrum,depth,Pz_min,Pz_max,physical_bounds_passed,relL2_vs_previous,relL2_late_vs_previous,max_abs_vs_previous,pair_passed,improved_vs_previous_pair,source,CF_selection_policy,CF_fit_mode,ODE_method
+subohmic,1,0.2418896914077426,1.0,True,,,,False,False,reused_validated_cache,confirmed_low,separate,bdf
+subohmic,2,0.2979055591198686,1.0,True,0.06561008029943186,0.04719725986412817,0.07838723379201301,False,False,reused_validated_cache,confirmed_low,separate,bdf
+subohmic,3,0.2933373520399159,1.0,True,0.0071230825143957,0.006485820375755109,0.007928065052581923,False,True,reused_validated_cache,confirmed_low,separate,bdf
+subohmic,4,0.2923550342105168,1.0,True,0.003954200316481655,0.0032809835752673562,0.004354261107589297,False,True,reused_validated_cache,confirmed_low,separate,bdf
+subohmic,5,0.2924051121649472,1.0,True,0.0003219988119808436,0.00030903094558952266,0.00033358951443163143,True,True,reused_validated_cache,confirmed_low,separate,bdf

@@ -1,0 +1,4 @@
+Spectrum,depth,Pz_min,Pz_max,physical_bounds_passed,relL2_vs_previous,relL2_late_vs_previous,max_abs_vs_previous,pair_passed,improved_vs_previous_pair,source,CF_selection_policy,CF_fit_mode,ODE_method
+tls,1,0.0319134729457616,1.0,True,,,,False,False,reused_validated_cache,confirmed_high,separate,adams
+tls,2,0.0329378961821947,1.0,True,0.016064850724025612,0.024927644804760264,0.021943528719518546,False,False,reused_validated_cache,confirmed_high,separate,adams
+tls,3,0.0329213228782193,1.0,True,0.0008215836953785393,0.0012943301719704249,0.0012325614846923072,True,True,reused_validated_cache,confirmed_high,separate,adams

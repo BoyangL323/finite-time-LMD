@@ -1,0 +1,1 @@
+{"runner":"run_article_cutoff_convergence","Tfit":150,"Nt":1601,"time_units":"dimensionless","time_step":0.09375,"BCF_full_time_window":[0,150],"BCF_late_time_window":[75,150],"BCF_metric_schema":"bcf_window_v2_full_scale_late_rms","metric_definition":"late RMS error uses the full-window reference RMS scale"}

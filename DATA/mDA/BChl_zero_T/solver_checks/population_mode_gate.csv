@@ -1,0 +1,6 @@
+BSDO_modes,BCF_passed,dynamics_run,previous_BSDO_modes,population_relL2_vs_previous,population_late_relL2_vs_previous,population_max_abs_vs_previous,population_pair_passed
+20,0,0,NaN,NaN,NaN,NaN,0
+30,0,0,20,NaN,NaN,NaN,0
+40,1,1,30,NaN,NaN,NaN,0
+50,1,1,40,2.60377963393913e-05,3.26892389599962e-05,5.19006200058181e-05,1
+60,1,1,50,2.50042847600977e-05,1.91965003498155e-05,3.88717885226875e-05,1

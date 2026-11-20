@@ -1,0 +1,5 @@
+{
+  "source_mat": "source-workspace/JPCL_submission_LMD_final_v5/reproducibility/results/revision_finiteT/population/tls_beta5_LMD_B_N80_M10.mat",
+  "M": 10,
+  "new_propagation_in_selection": false
+}

@@ -1,0 +1,135 @@
+{
+  "spectrum": "tls",
+  "decomposition": "direct finite-window T=0 correlation-function espira-I decomposition",
+  "target_correlation": "C(t)=integral_[wlow,whigh] J_code(w) exp(-iwt) dw",
+  "project_spectral_density_convention": "J_code=sum lambda^2 delta",
+  "hard_cutoff_policy": "fit C(t) directly; do not rationally extrapolate a compact-support power spectrum",
+  "fit_frequency_grid_n": 20000,
+  "audit_frequency_grid_n": 40000,
+  "continuum_grid_metrics": {
+    "schema": "bcf_window_v2_full_scale_late_rms",
+    "relL2_full": 2.1894203900051997e-06,
+    "late_RMS_over_full_RMS": 3.031740629871235e-06,
+    "relL2_late_over_full_norm": 2.1444783513256442e-06,
+    "max_abs_over_C0": 6.247221945885566e-07,
+    "late_start": 75.0,
+    "full_window": [
+      0.0,
+      150.0
+    ],
+    "late_window": [
+      75.0,
+      150.0
+    ],
+    "n_full": 1501,
+    "n_late": 751
+  },
+  "continuum_grid_passed": true,
+  "fit_method": "espira-I",
+  "fit_mode": "separate",
+  "rank_min": 8,
+  "rank_max": 24,
+  "rank_step": 2,
+  "required_successive_rank_passes": 2,
+  "selection_policy": "confirmed_high",
+  "selection_rule": "use the higher confirming BCF-qualified rank",
+  "confirmation_rank": 18,
+  "rank_audit": [
+    {
+      "rank": 8,
+      "n_exponents": 16,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.013985681619102382,
+      "max_decay_rate": 2.646702823836009,
+      "BCF_relL2_full": 0.14457454674144715,
+      "BCF_late_RMS_over_full_RMS": 0.015487021559555452,
+      "BCF_max_abs_over_C0": 0.3376226076410407,
+      "passed": false
+    },
+    {
+      "rank": 10,
+      "n_exponents": 20,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.014833985793639183,
+      "max_decay_rate": 2.087221072963162,
+      "BCF_relL2_full": 0.022751210176024446,
+      "BCF_late_RMS_over_full_RMS": 0.007085136789584725,
+      "BCF_max_abs_over_C0": 0.03314239110392727,
+      "passed": false
+    },
+    {
+      "rank": 12,
+      "n_exponents": 24,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.011666692023338174,
+      "max_decay_rate": 2.935203970957161,
+      "BCF_relL2_full": 0.013921199873914568,
+      "BCF_late_RMS_over_full_RMS": 0.001760959965029707,
+      "BCF_max_abs_over_C0": 0.02653924887472143,
+      "passed": false
+    },
+    {
+      "rank": 14,
+      "n_exponents": 28,
+      "stable_decay_rates": false,
+      "min_decay_rate": -0.05329773020621456,
+      "max_decay_rate": 2.277740112107848,
+      "BCF_relL2_full": 0.002975604657202586,
+      "BCF_late_RMS_over_full_RMS": 0.00040611957604715874,
+      "BCF_max_abs_over_C0": 0.0037769838486788406,
+      "passed": false
+    },
+    {
+      "rank": 16,
+      "n_exponents": 32,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.00887465226612181,
+      "max_decay_rate": 2.470647082698994,
+      "BCF_relL2_full": 0.001360510918310664,
+      "BCF_late_RMS_over_full_RMS": 0.0001823787158056581,
+      "BCF_max_abs_over_C0": 0.0017253977659562243,
+      "passed": true
+    },
+    {
+      "rank": 18,
+      "n_exponents": 36,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.00687769244035118,
+      "max_decay_rate": 2.3352074650431724,
+      "BCF_relL2_full": 0.00022522321365116217,
+      "BCF_late_RMS_over_full_RMS": 4.7002536338692054e-05,
+      "BCF_max_abs_over_C0": 0.00017795835210368733,
+      "passed": true
+    }
+  ],
+  "selected_rank": 18,
+  "n_exponents": 36,
+  "stable_decay_rates": true,
+  "min_decay_rate": 0.00687769244035118,
+  "max_decay_rate": 2.3352074650431724,
+  "fit_summary": "Correlation function fit:\n\nResult of fitting the real part of                        |Result of fitting the imaginary part                       \nthe correlation function with 18 terms:                   |of the correlation function with 18 terms:                 \n                                                          |                                                           \n Parameters|   ckr    |   vkr    |   vki    |  cki        | Parameters|   ckr    |   vkr    |   vki    |  cki         \n 1         |-6.84e-04 |-1.15e-03 | 1.93e+00 |-3.29e+00    | 1         | 2.85e-04 | 4.75e-05 | 7.10e-01 |3.87e+00      \n 2         |-7.80e-05 |-2.23e-04 | 6.37e-01 |-3.97e+00    | 2         | 7.85e-05 | 4.96e-06 | 2.12e-01 |3.99e+00      \n 3         |-9.22e-06 |-6.83e-05 | 1.90e-01 |-3.99e+00    | 3         | 2.44e-05 |-4.21e-07 | 5.56e-02 |4.00e+00      \n 4         | 3.28e-07 |-2.18e-05 | 5.11e-02 |-4.00e+00    | 4         | 6.53e-06 |-1.64e-07 | 8.24e-03 |4.00e+00      \n 5         | 2.68e-07 |-6.15e-06 | 7.81e-03 |-4.00e+00    | 5         | 1.37e-03 |-2.24e-04 | 1.65e+00 |2.85e+00      \n 6         |-5.45e-04 | 7.32e-04 | 1.65e+00 |3.73e+00     | 6         | 1.12e-03 |-2.16e-04 | 1.67e+00 |-3.14e+00     \n 7         | 7.32e-03 |-5.81e-03 | 2.22e+00 |-9.13e-01    | 7         | 2.42e-04 |-4.53e-05 | 6.52e-01 |-3.90e+00     \n 8         | 4.20e-03 | 6.54e-03 | 2.34e+00 |1.27e+00     | 8         | 7.39e-05 |-4.61e-06 | 1.94e-01 |-3.98e+00     \n 9         |-5.99e-05 | 1.49e-04 | 4.60e-01 |4.03e+00     | 9         | 2.17e-05 | 1.01e-06 | 5.04e-02 |-4.00e+00     \n 10        |-8.14e-06 | 4.77e-05 | 1.45e-01 |4.01e+00     | 10        | 6.09e-06 | 4.47e-07 | 7.76e-03 |-4.00e+00     \n 11        |-1.56e-06 | 1.70e-05 | 4.24e-02 |4.00e+00     | 11        | 2.92e-03 | 3.76e-03 | 1.92e+00 |-1.26e+00     \n 12        |-3.66e-07 | 5.34e-06 | 6.88e-03 |4.00e+00     | 12        | 1.08e-03 |-2.22e-03 | 1.53e+00 |1.36e+00      \n 13        |-2.31e-03 |-1.16e-04 | 6.37e-01 |4.50e-02     | 13        |-6.85e-03 |-1.02e-03 | 9.99e-01 |6.39e-02      \n 14        |-4.93e-04 |-9.01e-05 | 2.51e-01 |2.67e-02     | 14        |-3.75e-04 |-8.28e-05 | 3.55e-01 |2.66e-02      \n 15        | 2.35e-04 | 1.85e-07 | 1.50e-02 |1.00e-01     | 15        |-5.29e-08 | 2.36e-04 | 1.50e-02 |-1.00e-01     \n 16        |-7.87e-05 |-1.65e-05 | 7.90e-02 |8.26e-03     | 16        |-1.46e-05 |-2.15e-06 | 6.31e-02 |7.51e-03      \n 17        |-6.91e-06 |-1.07e-06 | 1.76e-02 |1.30e-03     | 17        |-4.88e-06 |-2.92e-07 | 8.41e-03 |4.90e-04      \n 18        | 2.36e-04 |-1.30e-07 | 1.50e-02 |-1.00e-01    | 18        |-2.04e-07 |-2.35e-04 | 1.50e-02 |1.00e-01      \n                                                          |                                                           \nA RMSE of  1.47e-05 was obtained for the the real part of |A RMSE of  1.79e-05 was obtained for the the imaginary part\nthe correlation function.                                 |of the correlation function.                               \nThe current fit took  0.787635 seconds.                   |The current fit took  0.777916 seconds.                    \n",
+  "bcf_metric_schema": "bcf_window_v2_full_scale_late_rms",
+  "bcf_tolerance": 0.002,
+  "bcf_late_tolerance": 0.002,
+  "bcf_max_tolerance": 0.01,
+  "bcf_metrics": {
+    "schema": "bcf_window_v2_full_scale_late_rms",
+    "relL2_full": 0.00022522321365116217,
+    "late_RMS_over_full_RMS": 4.7002536338692054e-05,
+    "relL2_late_over_full_norm": 3.324688155793956e-05,
+    "max_abs_over_C0": 0.00017795835210368733,
+    "late_start": 75.0,
+    "full_window": [
+      0.0,
+      150.0
+    ],
+    "late_window": [
+      75.0,
+      150.0
+    ],
+    "n_full": 1501,
+    "n_late": 751
+  },
+  "bcf_passed": true,
+  "audit_rule": "two successive stable decomposition ranks pass an independent fine-frequency-grid direct BCF on the exact propagation time window; late RMS error uses the full-window reference RMS scale"
+}

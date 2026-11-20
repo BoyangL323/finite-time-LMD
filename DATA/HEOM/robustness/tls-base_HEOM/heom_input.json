@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "id": "tls-base_HEOM",
+  "spectrum": "tls",
+  "J_scale": 1,
+  "cutoff": 4,
+  "psi": [
+    1,
+    0
+  ],
+  "design_T": 150,
+  "end_T": 150,
+  "M": 0,
+  "Nb": 40,
+  "source_root": "external-source/JCTC_LMD_article_code_v5",
+  "max_ADOs": 250000,
+  "max_depth": 4,
+  "python": "python",
+  "project_python": "source-project/python",
+  "output": "source-project/results/jctc_robustness_20261119/tls-base_HEOM"
+}

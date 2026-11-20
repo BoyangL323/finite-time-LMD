@@ -1,0 +1,120 @@
+{
+  "H_cm_inv": [
+    [
+      12410,
+      -87.7,
+      5.5
+    ],
+    [
+      -87.7,
+      12530,
+      30.8
+    ],
+    [
+      5.5,
+      30.8,
+      12210
+    ]
+  ],
+  "energy_reference_cm_inv": 12383.333333333334,
+  "exciton_energy_centered_cm_inv": [
+    -177.32354844475566,
+    -17.266421781113081,
+    194.58997022586678
+  ],
+  "Bohr_gaps_cm_inv": [
+    160.05712666364258,
+    211.85639200697986,
+    371.91351867062247
+  ],
+  "site_exciton_composition": [
+    [
+      0.0057813813353088713,
+      0.78247877306693547,
+      0.21173984559775577
+    ],
+    [
+      0.013165613116759406,
+      0.203094339764236,
+      0.78374004711900469
+    ],
+    [
+      0.98105300554793218,
+      0.014426887168828324,
+      0.0045201072832399495
+    ]
+  ],
+  "time_fs": 200,
+  "beta": null,
+  "gamma_cm_inv": 8,
+  "anchor_boundary_cm_inv": 159.26512376626951,
+  "spectrum_support_cm_inv": [
+    0.1,
+    4000
+  ],
+  "site_spectrum_factor_vs_relative": 2,
+  "coupling_convention": "(1/2) V_alpha sum(lambda_alpha,k (b+bdagger))",
+  "kernel_convention": "V_alpha - trace(V_alpha)/3 I; all nonzero channels retained",
+  "spectral_source": "same Ratsep Table-II BChl-a model and phonon wing as existing BChl section; imposed identical baths",
+  "Hamiltonian_source": "Adolphs and Renger 2006 Table 4 C. tepidum trimer; Table 1 column 4",
+  "Hamiltonian_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1578489/",
+  "Ishizaki_Fleming_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2762676/",
+  "propagation_performed": false,
+  "mode_set_names": [
+    "S1",
+    "S2",
+    "S3",
+    "B",
+    "MDM-c"
+  ],
+  "exchange_errors": [
+    [
+      0.003831609786124381,
+      0.003453123772420259,
+      0.0024786889735968873,
+      0.0017984324702592252,
+      0.026016118140989437
+    ],
+    [
+      0.0038724325057934187,
+      0.0034172595827138708,
+      0.0025818193373232578,
+      0.0018668297345108614,
+      0.028200965874767298
+    ],
+    [
+      0.003390865246656688,
+      0.0028278535216415845,
+      0.0028105670276668674,
+      0.00219282679655229,
+      0.01457821771698185
+    ]
+  ],
+  "actual_minimum_column": [
+    4,
+    4,
+    4
+  ],
+  "identity_shift_kernel_max_error": 2.2204460492503131E-16,
+  "spectral_scale_node_max_change_cm_inv": 1.6485513541675701E-10,
+  "spectral_scale_weight_max_relative_change": 1.5864136813281164E-13,
+  "continuum_integration_change": 1.1813429834528144E-9,
+  "bath3_kernel_max_absolute_difference_vs_B": 0.059274645209406882,
+  "mode_interval_boundaries_cm_inv": [
+    0.1,
+    159.26512376626951,
+    185.95675933531123,
+    291.88495533880115,
+    4000
+  ],
+  "kernel_regression": {
+    "passed": true,
+    "two_state_max_error": 0,
+    "basis_change_max_error": 4.7496728772244978E-15,
+    "degenerate_basis_max_error": 2.9448665728182277E-14,
+    "three_level_channels": 7,
+    "traceless_identity_shift_max_error": 1.1102230246251565E-16,
+    "traceless_basis_change_max_error": 6.5607241861442844E-15,
+    "traceless_two_state_regression_max_error": 0
+  }
+}

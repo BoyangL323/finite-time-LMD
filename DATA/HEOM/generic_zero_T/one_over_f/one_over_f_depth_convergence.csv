@@ -1,0 +1,7 @@
+Spectrum,depth,Pz_min,Pz_max,physical_bounds_passed,relL2_vs_previous,relL2_late_vs_previous,max_abs_vs_previous,pair_passed,improved_vs_previous_pair,source,CF_selection_policy,CF_fit_mode,ODE_method
+one_over_f,1,0.4905919450556743,1.0,True,,,,False,False,reused_validated_cache,confirmed_low,joint,bdf
+one_over_f,2,0.3745428925409317,1.0231133199908942,False,0.30813198975313716,0.3626435461376087,0.43114682354207656,False,False,reused_validated_cache,confirmed_low,joint,bdf
+one_over_f,3,0.4130744694030986,1.0,True,0.1810060491637521,0.1992079275028285,0.2577661198330109,False,True,reused_validated_cache,confirmed_low,joint,bdf
+one_over_f,4,-1.0368080099226986,1.0,False,0.8422498436004756,1.1653993563415856,1.84891939805419,False,False,reused_validated_cache,confirmed_low,joint,bdf
+one_over_f,5,0.3296929008458247,1.0,True,0.7644668376521204,1.3476339672663762,1.3665009107685233,False,False,reused_validated_cache,confirmed_low,joint,bdf
+one_over_f,6,0.4068788517690397,3.167407584905089,False,1.271437177555674,2.0656518196280587,2.8377146840592644,False,False,reused_validated_cache,confirmed_low,joint,bdf

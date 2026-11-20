@@ -1,0 +1,47 @@
+{
+  "runner": "run_article_bchl_population",
+  "gate_file": "source-project/results/bchl_reference_gate/reference_gate.json",
+  "reference_gate_schema": "bchl_reference_gate_v6_bsdo",
+  "reference_gate_status": "MM8_WORKING_CANDIDATE_MULTIPLICITY_NOT_CERTIFIED",
+  "reference_method": "BSDO",
+  "reference_mode": 60,
+  "reference_mode_levels": [
+    40,
+    50,
+    60
+  ],
+  "reference_MM": 8,
+  "working_candidate_available": true,
+  "multiplicity_gate": false,
+  "overall_reference_passed": false,
+  "omitted_expensive_audits": [
+    "full_trajectory_SVD_solver_comparison",
+    "ODE_tolerance_sweep",
+    "initialization_noise_sweep"
+  ],
+  "lmd_anchor_p": 1,
+  "lmd_anchor_p_status": "explicit BChl choice",
+  "methods": [
+    "Linear",
+    "Log",
+    "MDM",
+    "BSDO",
+    "ID",
+    "LMD-A",
+    "LMD-B",
+    "LMD-S",
+    "LMD-legacy"
+  ],
+  "budgets": [
+    10,
+    20,
+    30,
+    40
+  ],
+  "HEOM_directory": "source-project/results/bchl_heom/depth_scan",
+  "HEOM_required": false,
+  "HEOM_available": false,
+  "BChl_HEOM_status": "BATH_AUDIT_FAILED",
+  "BChl_HEOM_reason": "No BChl compact bath with <=60 exponents produced two consecutive stable BCF-qualified joint ESPIRA-I ranks. Retain the mD2 baseline and do not provide a BChl HEOM reference.",
+  "heatmap_policy": "certified HEOM when available; otherwise BSDO-mD2 MM8 working reference"
+}

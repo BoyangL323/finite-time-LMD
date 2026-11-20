@@ -1,0 +1,43 @@
+{
+  "status": "depth_unresolved",
+  "reason": "Reached maximum depth without a passing tail.",
+  "depth": 4,
+  "n_exponents": 28,
+  "qutip_version": "5.2.3",
+  "fit_seconds": 17.93997950013727,
+  "population_metric": "full/late relative L2 against previous depth, absolute max",
+  "coherence_purity_metric": "absolute RMS and absolute max",
+  "solver": {
+    "nsteps": 50000,
+    "rtol": 1e-08,
+    "atol": 1e-10,
+    "method": "bdf",
+    "normalize_output": false,
+    "progress_bar": "",
+    "store_states": false
+  },
+  "depth_tolerance": 0.002,
+  "Delta": 0.1,
+  "epsilon": 0,
+  "applied_Q_scale": 0.8660254037844386,
+  "signature": {
+    "schema": 2,
+    "id": "ohmic-enhanced_HEOM",
+    "spectrum": "ohmic",
+    "J_scale": 3,
+    "cutoff": 4,
+    "psi": [
+      1,
+      0
+    ],
+    "design_T": 150,
+    "end_T": 150,
+    "M": 0,
+    "Nb": 40,
+    "source_root": "external-source/JCTC_LMD_article_code_v5",
+    "max_ADOs": 250000,
+    "max_depth": 4,
+    "python": "python"
+  },
+  "wall_seconds": 127.3493861
+}

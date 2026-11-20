@@ -1,0 +1,91 @@
+{
+  "spectrum": "one_over_f",
+  "decomposition": "direct finite-window T=0 correlation-function espira-I decomposition",
+  "target_correlation": "C(t)=integral_[wlow,whigh] J_code(w) exp(-iwt) dw",
+  "project_spectral_density_convention": "J_code=sum lambda^2 delta",
+  "hard_cutoff_policy": "fit C(t) directly; do not rationally extrapolate a compact-support power spectrum",
+  "fit_frequency_grid_n": 20000,
+  "audit_frequency_grid_n": 40000,
+  "continuum_grid_metrics": {
+    "schema": "bcf_window_v2_full_scale_late_rms",
+    "relL2_full": 4.460017851241937e-07,
+    "late_RMS_over_full_RMS": 5.794768414640363e-07,
+    "relL2_late_over_full_norm": 4.098884744197156e-07,
+    "max_abs_over_C0": 4.0159511563219565e-07,
+    "late_start": 75.0,
+    "full_window": [
+      0.0,
+      150.0
+    ],
+    "late_window": [
+      75.0,
+      150.0
+    ],
+    "n_full": 1501,
+    "n_late": 751
+  },
+  "continuum_grid_passed": true,
+  "fit_method": "espira-I",
+  "fit_mode": "joint",
+  "rank_min": 8,
+  "rank_max": 24,
+  "rank_step": 2,
+  "required_successive_rank_passes": 2,
+  "selection_policy": "confirmed_low",
+  "selection_rule": "use the lower BCF-qualified member after the required successive-rank confirmation",
+  "confirmation_rank": 10,
+  "rank_audit": [
+    {
+      "rank": 8,
+      "n_exponents": 16,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.0018295421993447442,
+      "max_decay_rate": 2.0804715343216413,
+      "BCF_relL2_full": 9.898986919747139e-05,
+      "BCF_late_RMS_over_full_RMS": 1.755282660867405e-05,
+      "BCF_max_abs_over_C0": 0.0009898269087820226,
+      "passed": true
+    },
+    {
+      "rank": 10,
+      "n_exponents": 20,
+      "stable_decay_rates": true,
+      "min_decay_rate": 0.001745367072422171,
+      "max_decay_rate": 1.9442300213342203,
+      "BCF_relL2_full": 3.5312413790695756e-05,
+      "BCF_late_RMS_over_full_RMS": 4.646797781065984e-06,
+      "BCF_max_abs_over_C0": 0.0004976912321971354,
+      "passed": true
+    }
+  ],
+  "selected_rank": 8,
+  "n_exponents": 16,
+  "stable_decay_rates": true,
+  "min_decay_rate": 0.0018295421993447442,
+  "max_decay_rate": 2.0804715343216413,
+  "fit_summary": "Result of fitting Correlation Function with 8 terms: \n \n Parameters|   ckr    |   cki    |   vkr    |  vki \n 1         |-8.29e-08 | 2.71e-06 | 6.24e-02 |3.98e+00\n 2         |-2.31e-04 | 1.58e-04 | 2.08e+00 |2.31e+00\n 3         | 3.50e-04 | 1.20e-03 | 1.01e+00 |4.69e-01\n 4         | 1.46e-03 | 9.20e-04 | 4.17e-01 |1.01e-01\n 5         | 1.80e-03 | 4.05e-04 | 1.66e-01 |2.36e-02\n 6         | 2.12e-03 | 1.11e-04 | 6.19e-02 |6.80e-03\n 7         | 4.10e-03 |-2.50e-03 | 1.83e-03 |9.00e-04\n 8         | 3.04e-03 |-3.05e-04 | 1.75e-02 |2.50e-03\n \nA RMSE of  5.60e-05-1.40e-05j was obtained for the Correlation Function.\nThe current fit took  0.281900 seconds.",
+  "bcf_metric_schema": "bcf_window_v2_full_scale_late_rms",
+  "bcf_tolerance": 0.002,
+  "bcf_late_tolerance": 0.002,
+  "bcf_max_tolerance": 0.01,
+  "bcf_metrics": {
+    "schema": "bcf_window_v2_full_scale_late_rms",
+    "relL2_full": 9.898986919747139e-05,
+    "late_RMS_over_full_RMS": 1.755282660867405e-05,
+    "relL2_late_over_full_norm": 1.2415856520177638e-05,
+    "max_abs_over_C0": 0.0009898269087820226,
+    "late_start": 75.0,
+    "full_window": [
+      0.0,
+      150.0
+    ],
+    "late_window": [
+      75.0,
+      150.0
+    ],
+    "n_full": 1501,
+    "n_late": 751
+  },
+  "bcf_passed": true,
+  "audit_rule": "two successive stable decomposition ranks pass an independent fine-frequency-grid direct BCF on the exact propagation time window; late RMS error uses the full-window reference RMS scale"
+}

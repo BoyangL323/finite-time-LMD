@@ -1,0 +1,4 @@
+Spectrum,depth,Pz_min,Pz_max,physical_bounds_passed,relL2_vs_previous,relL2_late_vs_previous,max_abs_vs_previous,pair_passed,improved_vs_previous_pair,source,CF_selection_policy,CF_fit_mode,ODE_method
+ohmic,1,0.0446214778817187,1.0,True,,,,False,False,reused_validated_cache,confirmed_high,separate,adams
+ohmic,2,0.0501239595046362,1.0,True,0.013856335579863181,0.018621991239817153,0.016482590869816516,False,False,reused_validated_cache,confirmed_high,separate,adams
+ohmic,3,0.0502738807790588,1.0,True,0.0004729496821030565,0.0006520721947726598,0.0005602945629246125,True,True,reused_validated_cache,confirmed_high,separate,adams
